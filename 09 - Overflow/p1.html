@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            text-align: justify;
+            margin: 100px;
+            border: 3px solid red;
+        }
+        .card-1 {
+            overflow-y: hidden; /* auto, scroll, none, hidden*/
+        }
+
+        .card-2 {
+            overflow: auto;
+        }
+
+        .card-3 {
+            overflow-x: scroll;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h3>Overflow: hidden</h3>
+    <div class="card-1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ullam rem laboriosam doloremque dolore quo quisquam quis doloribus perspiciatis ad velit, voluptatibus soluta totam accusantium sint? Atque, assumenda facilis, aliquam consequatur doloremque laudantium provident deleniti tenetur, asperiores recusandae quam. Optio accusamus reprehenderit quam quaerat voluptatum autem, excepturi vel voluptate. Quos, molestiae! Iusto, excepturi voluptas officia quisquam, aliquid expedita reiciendis, optio facilis magni quia laboriosam. Architecto inventore, dicta et repellat modi similique, perferendis iure hic laudantium id numquam iusto voluptatem assumenda expedita labore sunt fuga minima aperiam ab! Aperiam, quas. Accusantium maxime accusamus ut nobis placeat facilis rem harum omnis unde.</p>
+    </div>
+
+    <h3>Overflow: auto</h3>
+    <div class="card-2">
+        <p>Loremipsumdolorsitametconsecteturadipisicingeli.Sequiullamremlaboriosamdoloremquedolorequoquisquamquisdoloribusperspiciatisad velit,voluptatibussolutatotamaccusantiumsint?Atque,assumendafacilis,aliquamconsequaturdoloremquelaudantiumprovidentdeleniti tenetur, asperiores recusandae quam. Optio accusamus reprehenderit quam quaerat voluptatum autem, excepturi vel voluptate. Quos, molestiae! Iusto, excepturi voluptas officia quisquam, aliquid expedita reiciendis, optio facilis magni quia laboriosam. Architecto inventore, dicta et repellat modi similique, perferendis iure hic laudantium id numquam iusto voluptatem assumenda expedita labore sunt fuga minima aperiam ab! Aperiam, quas. Accusantium maxime accusamus ut nobis placeat facilis rem harum omnis unde.</p>
+    </div>
+
+    <h3>Overflow-x and overflow-y</h3>
+    <div class="card-3">
+        <p>Loremipsumdolorsitametconsecteturadipisicingeli.Sequiullamremlaboriosamdoloremquedolorequoquisquamquisdoloribusperspiciatisad velit,voluptatibussolutatotamaccusantiumsint?Atque,assumendafacilis,aliquamconsequaturdoloremquelaudantiumprovidentdeleniti  doloremque laudantium provident deleniti tenetur, asperiores recusandae quam. Optio accusamus reprehenderit quam quaerat voluptatum autem, excepturi vel voluptate. Quos, molestiae! Iusto, excepturi voluptas officia quisquam, aliquid expedita reiciendis, optio facilis magni quia laboriosam. Architecto inventore, dicta et repellat modi similique, perferendis iure hic laudantium id numquam iusto voluptatem assumenda expedita labore sunt fuga minima aperiam ab! Aperiam, quas. Accusantium maxime accusamus ut nobis placeat facilis rem harum omnis unde.</p>
+    </div>
+</body>
+</html>

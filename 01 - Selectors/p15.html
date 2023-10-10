@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th {
+            border: 1px solid #222;
+            border-collapse: collapse;
+        }
+        tr,td,th{
+            padding: 10px;
+        }
+        /* :nth-child(position) can target any child elements */
+
+        tr:nth-child(even) {
+            background-color: #ddd;
+            color: #222;
+        }
+        tr:nth-child(odd) {
+            background-color: slateblue;
+            color: #fff;
+        }
+        /* tr:nth-child(4) {
+            background-color: crimson;
+            color: #fff;
+        } */
+        /* tr:nth-child(7){
+            background-color: aqua;
+        }
+        td {
+             background-color: chartreuse; 
+            color: brown;
+        }
+        tr:nth-child(2) td:nth-child(1){
+            background-color: chartreuse;
+        } */
+    </style>
+</head>
+<body>
+    <h3>html tag:nth-chidls()</h3>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Eamil</th>
+            <th colspan="2">Mobile</th>
+        </tr>
+        <tr>
+            <td>Preeti</td>
+            <td>preeti@gmail.com</td>
+            <td>1236547895</td>
+            <td>7894561235</td>
+        </tr>
+        <tr>
+            <td>Kaveri</td>
+            <td>preeti@gmail.com</td>
+            <td>1236547895</td>
+            <td>7894561235</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>preeti@gmail.com</td>
+            <td>1236547895</td>
+            <td>7894561235</td>
+        </tr>
+        <tr>
+            <td>Pooja</td>
+            <td>preeti@gmail.com</td>
+            <td>1236547895</td>
+            <td>7894561235</td>
+        </tr>
+        <tr>
+            <td>Sandya</td>
+            <td>preeti@gmail.com</td>
+            <td>1236547895</td>
+            <td>7894561235</td>
+        </tr>
+        <tr>
+            <td>Shahana</td>
+            <td>preeti@gmail.com</td>
+            <td>1236547895</td>
+            <td>7894561235</td>
+        </tr>
+    </table>
+</body>
+</html>

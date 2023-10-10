@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            background-color: gray;
+        }
+
+        /*  tild ~ operator */
+        div ~ p {
+            color: #fff;
+            background-color: orange;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>element ~ element (Genenral Sibling Combinator)</h1>
+
+    <!-- It targets all chailds after the parent -->
+    <h3>Sample heading</h3>
+
+    <div>
+        <h3>Css title here</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus qui ipsa molestiae sed, mollitia facilis facere laudantium itaque distinctio error. Autem dolore iste at eligendi deleniti minus, reprehenderit amet. Culpa!</p>
+    </div>
+
+    <h3>Sample heading</h3>
+
+    <p>this is sample paragraph</p>
+
+    <h3>sample heading</h3>
+
+    <p>this is another paragraph</p>
+</body>
+</html>
